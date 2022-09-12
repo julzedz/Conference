@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/julzedz/Conference/issues"
   },
-  "homepage": "https://github.com/julzedz/Conference#readme"
+  "homepage": "https://github.com/julzedz/Conference#readme",
+  "devDependencies": {
+    "hint": "^7.1.2"
+  }
 }
