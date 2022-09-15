@@ -13,10 +13,51 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
-.mobile_menu {
+.desktop_menu {
   display: none;
+}
+
+@media screen and (max-width: 768px) {
+  li {
+    list-style: none;
+  }
+
+  .headr {
+    height: 4em;
+    overflow: visible;
+  }
+
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  gap: 1em;
+  top: 0;
+  left: 0;
+  padding: 0 3em 1em 0;
+  margin-left: 0;
+  width: 96vw;
+  height: 95vh;
+  background: rgba(22, 21, 21, 0.9);
+  position: absolute;
+}
+
+.mobile-item {
+padding: 1em;
+padding-left: 2em;
+color: #fff;
+font-size: 1em;
+font-weight: 600;
+}
+
+#pres {
+  background: #ef513c;
+  width: fit-content;
+  margin-left: 1em;
+  padding: 1em;
+}
 }
 
 .first-header {
@@ -28,14 +69,16 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #e0dfdf;
+  background: url(/imgs/mobile_intro_bg.png) no-repeat;
+  background-position: bottom;
   padding: 1em;
   padding-top: .5em;
   padding-bottom: .5em;
 }
 
-#mobile_menu_button img {
-  width: 50%;
+#ham_menu_button img {
+  width: 3em;
+  padding-left: 1em;
   height: auto;
 }
 
@@ -43,7 +86,7 @@ a {
   justify-self: center;
   width: fit-content;
   margin: 0 auto;
-  display: flex;
+  display: none;
   justify-content: center;
 }
 
@@ -284,7 +327,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  .mobile_menu_btn {
+  .ham_menu_btn {
     display: none;
   }
 
@@ -292,9 +335,13 @@ footer {
     overflow-x: hidden;
   }
 
-  .mobile_menu {
+  .desktop_menu {
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .mobile-nav {
+    display: none;
   }
 
   #nav-close-btn {
@@ -311,6 +358,7 @@ footer {
   }
 
   .mobile-logo-wrap {
+    display: flex;
     order: -1;
     width: 20%;
     padding-left: 1em;
@@ -338,13 +386,13 @@ footer {
     cursor: pointer;
   }
 
-  .mobile_menu_item {
+  .menu_item {
     font-size: .8em;
     letter-spacing: 1.5px;
     padding: 1em;
   }
 
-  .mobile_menu_item:hover {
+  .menu_item:hover {
     cursor: pointer;
     color: #ef513c;
   }

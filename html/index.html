@@ -9,42 +9,43 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/b5f75e214f.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header class="first-header">
-
-    <i class="fab fa-facebook"></i>
-    <i class="fab fa-twitter"></i>
+    <a href=""><img class="icon" src="/imgs/facebook.png" alt=""></a>
+    <a href=""><img class="icon" src="/imgs/twitter.png" alt=""></a>
     <p>English</p>
     <p>My Page</p>
     <p>Logout</p>
   </header>
   <header class="headr">
     <nav class="nav-class">
-      <div class="mobile_menu_btn">
-        <a href="" id="mobile_menu_button">
+      <div class="ham_menu_btn">
+        <a href="" id="ham_menu_button">
           <img src="/imgs/mobile_menu_btn.png" alt="hamburger menu">
         </a>
       </div>
-      <ul class="mobile_menu">
-        <li class="mobile_menu_item top">
-          <a href="#" id="close_mobile_menu">
-            <img id="nav-close-btn" src="/imgs/close_mobile_menu.png" alt="close button">
-          </a>
+      <ul class="mobile-nav">
+        <li class="mobile-item"><a href="#" id="close_mobile_menu"><img id="nav-close-btn" src="/imgs/close_mobile_menu.png" alt="close button"></a>
         </li>
-        <li class="mobile_menu_item intro">About</li>
-        <li class="mobile_menu_item program">Program</li>
-        <li class="mobile_menu_item application">Join</li>
-        <li class="mobile_menu_item sponsor">Sponsor</li>
-        <li class="mobile_menu_item news">News</li>
-        <li class="mobile_menu_item presentation">
+        <li class="mobile-item"><a href="./index.html">Home</a></li>
+        <li class="mobile-item"><a href="./about.html">About</a></li>
+        <li class="mobile-item">Join</li>
+        <li class="mobile-item" id="pres"><a href="#">Presentation</a></li>
+      </ul>
+      <ul class="desktop_menu">
+        <li class="menu_item intro"><a href="./about.html">About</a></li>
+        <li class="menu_item program">Program</li>
+        <li class="menu_item application">Join</li>
+        <li class="menu_item sponsor">Sponsor</li>
+        <li class="menu_item news">News</li>
+        <li class="menu_item presentation">
           <a href="#">CC Campaign</a>
         </li>
       </ul>
     </nav>
     <div class="mobile-logo-wrap">
-      <a id="headr-logo" href="#">
+      <a id="headr-logo" href="./index.html">
         <img  src="/imgs/logo.png" alt="CC Global Summit 2015">
       </a>
     </div>
