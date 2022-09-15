@@ -49,20 +49,20 @@ a {
   background-size: cover;
 }
 
-.intro-sctn-title {
-  font-size: 2em;
-  font-weight: 700;
-  width: 100%;
-  color: #ef513c;
-  padding: 1em 2em 2em 1em;
-}
-
 #intro-sctn-span {
-  font-size: 1em;
+  font-size: .8em;
   display: block;
   color: #ef513c;
   font-weight: 200;
-  margin-bottom: .5em;
+}
+
+.intro-sctn-title {
+  font-size: 2.3em;
+  font-weight: 700;
+  width: 100%;
+  color: #ef513c;
+  padding: 1em 1.5em 2em 1em;
+  line-height: 1.5em;
 }
 
 .intro-msg {
@@ -181,6 +181,10 @@ a {
   margin-bottom: 2em;
 }
 
+.about-2013 img:hover {
+  color: rgba(252, 164, 164, 0.1);
+}
+
 .about-2011 {
   width: 100%;
   display: flex;
@@ -238,7 +242,6 @@ footer {
 
 .footer-logo img {
   width: 30vw;
-  padding: ;
 }
 
 .footer-note {

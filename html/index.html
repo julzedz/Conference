@@ -9,8 +9,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b5f75e214f.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <header class="first-header">
+
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <p>English</p>
+    <p>My Page</p>
+    <p>Logout</p>
+  </header>
   <header class="headr">
     <nav class="nav-class">
       <div class="mobile_menu_btn">
@@ -21,16 +30,16 @@
       <ul class="mobile_menu">
         <li class="mobile_menu_item top">
           <a href="#" id="close_mobile_menu">
-            <img src="/imgs/close_mobile_menu.png" alt="close button">
+            <img id="nav-close-btn" src="/imgs/close_mobile_menu.png" alt="close button">
           </a>
         </li>
-        <li class="mobile_menu_item intro"></li>
-        <li class="mobile_menu_item program"></li>
-        <li class="mobile_menu_item application"></li>
-        <li class="mobile_menu_item sponsor"></li>
-        <li class="mobile_menu_item news"></li>
+        <li class="mobile_menu_item intro">About</li>
+        <li class="mobile_menu_item program">Program</li>
+        <li class="mobile_menu_item application">Join</li>
+        <li class="mobile_menu_item sponsor">Sponsor</li>
+        <li class="mobile_menu_item news">News</li>
         <li class="mobile_menu_item presentation">
-          <a href="#"></a>
+          <a href="#">CC Campaign</a>
         </li>
       </ul>
     </nav>
@@ -123,7 +132,8 @@
         </li>
       </ul>
       <div class="view-full-program">
-        <a href="#">Join AR Art Summit 2022</a>
+        <a href="#" id="view-whole">Join AR Art Summit 2022</a>
+        <a href="#" id="see-whole">SEE THE WHOLE PROGRAM</a>
       </div>
     </section>
     <section id="speakers">
@@ -171,6 +181,40 @@
         <a href="#">MORE</a>
       </div>
     </section>
+    <section class="partner">
+      <header class="partner-header">
+        <h2>Partners</h2>
+        <div class="orange-bar"></div>
+      </header>
+      <div class="sponsor-group">
+        <div class="sponsors">
+          <img src="/imgs/mozilla.png" alt="">
+        </div>
+        <div class="sponsors">
+          <img src="/imgs/googlekorea-removebg-preview.png" alt="">
+        </div>
+        <div class="sponsors">
+          <img src="/imgs/naver-removebg-preview.png" alt="">
+        </div>
+        <div class="sponsors">
+          <img src="/imgs/kakao-removebg-preview.png" alt="">
+        </div>
+        <div class="sponsors">
+          <img src="/imgs/airbnb-removebg-preview.png" alt="">
+        </div>
+      </div>
+    </section>
   </main>
+    <footer>
+    <div class="footer-logo">
+      <img src="/imgs/cc-logo2.png" alt="summit logo">
+    </div>
+    <div class="footer-note">
+      <p>2022 Creative Commons Korea.</p>
+      <p>Some Rights Reserved.</p>
+      <p>All content on the website, unless otherwise specified, is available under a Creative Commons Attribution 2.0 Korea License. Please see http://creativecommons.org/licences/by/2.0/kr
+for detailed usage function details and permission conditions. Creative Commons Global Summit is committed to providing a harassment-free meeting experience for all. See our Code of Conduct and Non-Infringement Policy.</p>
+    </div>
+  </footer>
 </body>
 </html>
