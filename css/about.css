@@ -31,7 +31,7 @@ a {
   }
 
 .mobile-nav {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 1em;
   top: 0;
@@ -56,8 +56,6 @@ font-weight: 600;
   width: fit-content;
   margin-left: 1em;
 }
-
-
 }
 
 .headr {
@@ -73,6 +71,18 @@ font-weight: 600;
   width: 3em;
   padding-left: 1em;
   height: auto;
+}
+
+.open {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
 }
 
 .mobile-logo-wrap {

@@ -82,6 +82,18 @@ font-weight: 600;
   height: auto;
 }
 
+.open {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
 .mobile-logo-wrap {
   justify-self: center;
   width: fit-content;
