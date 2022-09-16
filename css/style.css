@@ -69,11 +69,15 @@ font-weight: 600;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url(/imgs/mobile_intro_bg.png) no-repeat;
+  background: url(../imgs/mobile_intro_bg.png) no-repeat;
   background-position: bottom;
   padding: 1em;
   padding-top: .5em;
   padding-bottom: .5em;
+}
+
+#nav-close-btn {
+  width: 1.5em;
 }
 
 #ham_menu_button img {
@@ -105,7 +109,7 @@ font-weight: 600;
 #intro-sectn {
   width: 100%;
   height: auto;
-  background: url(/imgs/mobile_intro_bg.png) no-repeat;
+  background: url(../imgs/mobile_intro_bg.png) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -166,7 +170,7 @@ font-weight: 600;
   width: 100%;
   height: auto;
   background: #272a32;
-  background-image: url(/imgs/pattern_bg.png);
+  background-image: url(../imgs/pattern_bg.png);
   background-repeat: repeat;
   padding-bottom: 1em;
 }
@@ -415,7 +419,7 @@ footer {
   }
 
   #intro-sectn {
-    background-image: url(/imgs/main_big.png);
+    background-image: url(../imgs/main_big.png);
     background-repeat: repeat-x;
     background-position: center;
   }
