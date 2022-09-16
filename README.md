@@ -39,8 +39,8 @@ git clone https://github.com/julzedz/Conference.git
 👤 **Author**
 
 - GitHub: [@julzedz](https://github.com/julzedz)
-- Twitter: [@twitterhandle](https://twitter.com/julzedz)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jules-edozie-b59b94234)
+- Twitter: [@julzedz](https://twitter.com/julzedz)
+- LinkedIn: [Jules Edozie](https://www.linkedin.com/in/jules-edozie-b59b94234)
 
 Feel free to check the issues page.
 [View Live Link](https://julzedz.github.io/Conference/)
