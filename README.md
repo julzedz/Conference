@@ -54,7 +54,7 @@ This project is [MIT](./LICENSE) licensed.
 
 ## Presentation video 💬
 
-[Loom video]()
+[Loom video](https://loom.com/share/9a4aa3d2434c41fd9e68ba32600226f1)
 
 ## Acknowledgements
 
