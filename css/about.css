@@ -223,6 +223,10 @@ a {
   margin-bottom: 2em;
 }
 
+.about-2013 img {
+  width: 90%;
+}
+
 .about-2011 {
   width: 100%;
   display: flex;
@@ -230,6 +234,10 @@ a {
   justify-content: center;
   align-items: center;
   margin-bottom: 2em;
+}
+
+.about-2011 img {
+  width: 90%;
 }
 
 .partner {
