@@ -14,7 +14,6 @@ body {
 a {
   text-decoration: none;
   color: inherit;
-
 }
 
 .desktop_menu {
@@ -30,32 +29,32 @@ a {
     height: 4em;
   }
 
-.mobile-nav {
-  display: none;
-  flex-direction: column;
-  gap: 1em;
-  top: 0;
-  left: 0;
-  padding: 0 3em 1em 0;
-  margin-left: 0;
-  width: 96vw;
-  height: 95vh;
-  background: rgba(22, 21, 21, 0.9);
-  position: absolute;
-}
+  .mobile-nav {
+    display: none;
+    flex-direction: column;
+    gap: 1em;
+    top: 0;
+    left: 0;
+    padding: 0 3em 1em 0;
+    margin-left: 0;
+    width: 96vw;
+    height: 95vh;
+    background: rgba(22, 21, 21, 0.9);
+    position: absolute;
+  }
 
-.mobile-item {
-padding: 1em;
-color: #fff;
-font-size: 1em;
-font-weight: 600;
-}
+  .mobile-item {
+    padding: 1em;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+  }
 
-#pres {
-  background: #ef513c;
-  width: fit-content;
-  margin-left: 1em;
-}
+  #pres {
+    background: #ef513c;
+    width: fit-content;
+    margin-left: 1em;
+  }
 }
 
 .headr {
@@ -69,12 +68,6 @@ font-weight: 600;
 
 #nav-close-btn {
   width: 1.5em;
-}
-
-#ham_menu_button img {
-  width: 3em;
-  padding-left: 1em;
-  height: auto;
 }
 
 .open {
@@ -106,7 +99,7 @@ font-weight: 600;
 }
 
 #intro-sctn-span {
-  font-size: .8em;
+  font-size: 0.8em;
   display: block;
   color: #ef513c;
   font-weight: 200;
@@ -126,13 +119,13 @@ font-weight: 600;
   background: #fff;
   width: calc(100% - 2em);
   height: auto;
-  border: .25em solid #fff;
+  border: 0.25em solid #fff;
   margin: 0 1em 1em 1em;
 }
 
 .intro-msg p {
   margin: 0 0.5em 0 0.5em;
-  padding: .5em 0.5em;
+  padding: 0.5em 0.5em;
   font-size: 1em;
   line-height: 1.8em;
 }
@@ -197,17 +190,10 @@ font-weight: 600;
   display: flex;
 }
 
-#logo-image img{
-  width: calc(100% - 3em);
-  margin: 0 auto 0 auto;
-  align-items: center;
-}
-
 .past-summits {
   width: 100%;
   padding-bottom: 2em;
 }
-
 
 .past-header {
   width: 100%;
@@ -280,7 +266,7 @@ font-weight: 600;
 }
 
 .sponsors img {
-width: 100%;
+  width: 100%;
 }
 
 footer {
@@ -296,8 +282,20 @@ footer {
   width: 30vw;
 }
 
+#logo-image img {
+  width: calc(100% - 3em);
+  margin: 0 auto 0 auto;
+  align-items: center;
+}
+
+#ham_menu_button img {
+  width: 3em;
+  padding-left: 1em;
+  height: auto;
+}
+
 .footer-note {
-  font-size: .7em;
+  font-size: 0.7em;
 }
 
 .first-header {
@@ -312,8 +310,8 @@ footer {
   display: none;
 }
 
-@media screen and (min-width:768px) {
-    .ham_menu_btn {
+@media screen and (min-width: 768px) {
+  .ham_menu_btn {
     display: none;
   }
 
@@ -331,10 +329,9 @@ footer {
   }
 
   .headr {
-    gap: .5em;
+    gap: 0.5em;
     background: #fff;
     padding: 1em;
-
   }
 
   .mobile-logo-wrap {
@@ -351,9 +348,9 @@ footer {
   .first-header {
     background: #48494d;
     width: 100%;
-    font-size: .7em;
+    font-size: 0.7em;
     color: #fff;
-    padding: .5em;
+    padding: 0.5em;
     display: flex;
     gap: 1em;
     align-items: center;
@@ -367,7 +364,7 @@ footer {
   }
 
   .menu_item {
-    font-size: .8em;
+    font-size: 0.8em;
     letter-spacing: 1.5px;
     padding: 1em;
   }
@@ -379,7 +376,7 @@ footer {
 
   .presentation {
     border: 4px solid #ff4f38;
-    padding: .7em;
+    padding: 0.7em;
   }
 
   .presentation a {
@@ -390,7 +387,7 @@ footer {
     display: none;
   }
 
-    #intro-sectn {
+  #intro-sectn {
     background: #ededed url(../imgs/about_bg_01.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -413,13 +410,12 @@ footer {
 
   .intro-msg {
     width: 70%;
-    margin-top: 0;
     margin: 0 auto;
   }
 
   #second-para {
-  display: block;
-}
+    display: block;
+  }
 
   .partner {
     display: none;
@@ -428,13 +424,9 @@ footer {
   #logo-sctn {
     padding-top: 3em;
   }
-  
+
   .logo-info {
     text-align: center;
-  }
-
-  #logo-image img{
-    width: 60%;
   }
 
   .past-sub {
@@ -448,13 +440,17 @@ footer {
     margin: 0 auto;
     margin-top: 2em;
   }
-  
+
   .about-years img {
     width: 100%;
     display: flex;
     margin-bottom: 2em;
     margin-top: 2em;
-}
+  }
+
+  #logo-image img {
+    width: 60%;
+  }
 
   footer {
     background: #48494d;
@@ -463,7 +459,6 @@ footer {
   #desktop-footer {
     display: inline;
     width: 15vw;
-
   }
 
   #mobile-footer {

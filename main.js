@@ -1,13 +1,13 @@
 const hamburger = document.querySelector('#ham_menu_button');
 const close = document.querySelector('#nav-close-btn');
 const nav = document.querySelector('.mobile-nav');
-const arr = [hamburger,close]
-arr.forEach((e) =>{
+const arr = [hamburger, close];
+arr.forEach((e) => {
   e.addEventListener('click', (e) => {
     e.preventDefault();
-  close.classList.toggle("visible");
-  hamburger.classList.toggle("hidden");
-  nav.classList.toggle("visible");
+    close.classList.toggle('visible');
+    hamburger.classList.toggle('hidden');
+    nav.classList.toggle('visible');
   });
 });
 
@@ -48,8 +48,8 @@ const speakerData = [
     bio: 'Layla Tretikov is the general secretary of the Wikimedia Foundation, a non-profit organization that runs Wikipedia. Wikipedia is provided free of charge in 290 languages every month to over 100 million people, nearly half of the world\'s population.',
   },
   {
-    id:6,
-    image:'../imgs/speaker-6.png',
+    id: 6,
+    image: '../imgs/speaker-6.png',
     name: 'Trevor Jones',
     position: 'Creative Commons CEO, Former Mozilla Foundation COO',
     bio: 'He led open source projects at the Mozilla Foundation and joined CC as CEO in 2014. He has been active in open movements such as open government and open source.',
@@ -57,13 +57,9 @@ const speakerData = [
 ];
 
 const speakersList = document.querySelector('.speakers-list');
-let desktop = window.matchMedia('(min-width: 768px)');
-let mobile = window.matchMedia('max-width: 768px');
 let displayAll = '';
-
-if (desktop.matches) {
-  for (let i =0; i < speakerData.length; i+= 1){
-    displayAll += `<li class="speaker">
+for (let i = 0; i < speakerData.length; i += 1) {
+  displayAll += `<li class="speaker">
               <div class="speaker-img">
                 <img src="${speakerData[i].image}" alt="">
               </div>
@@ -79,26 +75,5 @@ if (desktop.matches) {
                 </div>
               </div>
             </li>`;
-          }
-  speakersList.innerHTML = displayAll;
-        } else if (mobile.matches){
-          for (let i = 0; i < 2; i += 1) {
-              displayAll += `<li class="speaker">
-                        <div class="speaker-img">
-                          <img src="${speakerData[i].image}" alt="">
-                        </div>
-                        <div class="speaker-info-wrap">
-                          <div class="eng-name">
-                            <p>${speakerData[i].name}</p>
-                          </div>
-                          <div class="position">
-                            <p>${speakerData[i].position}</p>
-                          </div>
-                          <div class="bio">
-                            <p>${speakerData[i].bio}</p>
-                          </div>
-                        </div>
-                      </li>`;
-          }
-            speakersList.innerHTML = displayAll;
-        }
+}
+speakersList.innerHTML = displayAll;
