@@ -14,7 +14,7 @@ arr.forEach((e) => {
 const speakerData = [
   {
     id: 1,
-    image: 'imgs/speaker-1.png',
+    image: './imgs/speaker-1.png',
     name: 'Dan Koerner',
     position: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     bio: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
