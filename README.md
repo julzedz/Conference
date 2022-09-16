@@ -59,4 +59,4 @@ This project is [MIT](./LICENSE) licensed.
 ## Acknowledgements
 
 This design was inspired by Cindy Shin;
-[Behance Link](hhttps://www.behance.net/adagio07)
+[Behance Link](https://www.behance.net/adagio07)
