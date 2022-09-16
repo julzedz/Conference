@@ -62,7 +62,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url(../imgs/mobile_intro_bg.png) no-repeat;
+  background: url(imgs/mobile_intro_bg.png) no-repeat;
   background-position: bottom;
 }
 
@@ -93,7 +93,7 @@ a {
 #intro-sectn {
   width: 100%;
   height: auto;
-  background: url(../imgs/mobile_intro_bg.png) no-repeat;
+  background: url(imgs/mobile_intro_bg.png) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -396,7 +396,7 @@ footer {
   }
 
   #intro-sectn {
-    background: #ededed url(../imgs/about_bg_01.png);
+    background: #ededed url(imgs/about_bg_01.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
