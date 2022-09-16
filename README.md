@@ -5,7 +5,7 @@ This app was built as a microverse capstone project with reference to the behanc
 - The homepage(index page) and
 - The about us page.
 
-The layouts were done using css flexbox. The site is very responsive on different screens. Javascript was used for functionality to enhance user experience.
+The layouts were done using css flexbox. The site is very responsive on different screens. Javascript was used for functionality to enhance user experience. The site was deloyed on Git pages.
 
 ## Built With 💻
 
