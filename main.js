@@ -21,7 +21,7 @@ const speakerData = [
   },
   {
     id: 2,
-    image: 'imgs/speaker-2.png',
+    image: './imgs/speaker-2.png',
     name: 'Elena Zavelev',
     position: 'Art Center Nabi Director, CC Korea Director',
     bio: 'As the author of <Digital Art Art of Our Time>, she opened \'Art Center Nabi\', Korea\'s first digital art institution in 2000, and is currently serving there.',
