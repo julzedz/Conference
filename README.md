@@ -7,7 +7,7 @@ This app was built as a microverse capstone project with reference to the behanc
 
 The layouts were done using css flexbox. The site is very responsive on different screens. Javascript was used for functionality to enhance user experience.
 
-## Built With
+## Built With 💻
 
 - HTML
 - CSS
@@ -21,7 +21,7 @@ The layouts were done using css flexbox. The site is very responsive on differen
 
 - None
 
-## Live Demo Link
+## Live Demo Link 
 
 [View Live Link](https://julzedz.github.io/Conference/)
 
@@ -48,11 +48,11 @@ Feel free to check the issues page.
 Show your support
 Give a ⭐️ if you like this project!
 
-## 📝 License
+## License 📝
 
 This project is [MIT](./LICENSE) licensed.
 
-## Presentation video
+## Presentation video 💬
 
 [Loom video]()
 
