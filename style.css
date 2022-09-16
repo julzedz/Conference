@@ -76,6 +76,7 @@ a {
   align-items: center;
   background: url(imgs/mobile_intro_bg.png) no-repeat;
   background-position: bottom;
+  background-size: cover;
   padding: 1em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;

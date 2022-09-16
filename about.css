@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  width: 100%;
 }
 
 a {
@@ -64,6 +65,7 @@ a {
   align-items: center;
   background: url(imgs/mobile_intro_bg.png) no-repeat;
   background-position: bottom;
+  background-size: cover;
 }
 
 #nav-close-btn {
