@@ -297,7 +297,7 @@ footer {
 }
 
 #logo-image img {
-  width: calc(100% - 3em);
+  width: calc(100% - 10em);
   margin: 0 auto 0 auto;
   align-items: center;
 }
@@ -331,7 +331,9 @@ footer {
 
   .desktop_menu {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2%;
+    margin-right: 5vw;
   }
 
   .mobile-nav {
@@ -343,20 +345,21 @@ footer {
   }
 
   .headr {
-    gap: 0.5em;
-    background: #fff;
+    gap: 4em;
     padding: 1em;
+    background: #fff;
   }
 
   .mobile-logo-wrap {
     display: flex;
     order: -1;
-    width: 20%;
+    width: fit-content;
     padding-left: 1em;
+
   }
 
   .nav-class {
-    width: 78%;
+    width: 65vw;
   }
 
   .first-header {
@@ -380,7 +383,7 @@ footer {
   .menu_item {
     font-size: 0.8em;
     letter-spacing: 1.5px;
-    padding: 1em;
+    padding: 0.8em;
   }
 
   .menu_item:hover {
@@ -391,6 +394,7 @@ footer {
   .presentation {
     border: 4px solid #ff4f38;
     padding: 0.7em;
+    text-align: center;
   }
 
   .presentation a {
@@ -463,7 +467,7 @@ footer {
   }
 
   #logo-image img {
-    width: 60%;
+    width: 40%;
   }
 
   footer {

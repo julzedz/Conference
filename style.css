@@ -362,7 +362,9 @@ footer {
 
   .desktop_menu {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2%;
+    margin-right: 5vw;
   }
 
   .mobile-nav {
@@ -378,19 +380,20 @@ footer {
   }
 
   .headr {
-    gap: 0.5em;
+    gap: 4em;
+    padding: 1em;
     background: #fff;
   }
 
   .mobile-logo-wrap {
     display: flex;
     order: -1;
-    width: 20%;
+    width: fit-content;
     padding-left: 1em;
   }
 
   .nav-class {
-    width: 78%;
+    width: 65vw;
   }
 
   .first-header {
@@ -414,7 +417,7 @@ footer {
   .menu_item {
     font-size: 0.8em;
     letter-spacing: 1.5px;
-    padding: 1em;
+    padding: 0.8em;
   }
 
   .menu_item:hover {
@@ -626,6 +629,7 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     padding: 2em;
+    margin: 0 auto;
   }
 
   .footer-logo img {
@@ -633,6 +637,6 @@ footer {
   }
 
   .footer-note {
-    font-size: 0.7em;
+    font-size: 1em;
   }
 }
